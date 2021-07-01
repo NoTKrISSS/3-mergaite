@@ -6,55 +6,61 @@ body {
 header {
     display: inline-block;
     width: 800px;
-    margin-top: 20px;
+    margin-left: calc((100% - 800px) / 2);
+    margin-bottom: 30px;
 }
 
 header > img {
     float: left;
     height: 50px;
-    margin-bottom: 40px;
-    margin-left: 30px;
 }
 
 nav {
     float: right;
     margin-top:  7px;
-    margin-right: 40px;
 }
 
 a {
     float: left;
-    padding: 5px;
-    padding-left: 13px;
-    padding-right: 13px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: #9E9E9E;
-    font-size: 20px;
+    font-size: 17px;
     text-decoration: none;
-    border-radius: 25%;
+    border-radius: 18px;
+    border: 5px solid transparent;
+    line-height: 20px;
 }
 
-#signIn {
+.signin {
     border-color: #9E9E9E;
-    border: 3px solid;
-    margin-left: 30px;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+main {
+    display: inline-block;
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);;
 }
 
 div {
     float: left;
-    text-align: center;
-    font-size: 100px;
-    color: #9E9E9E;
-    width: 40%;
-    margin-left: 10%;
+    width: 45%;
+    margin-top: 30px;
 }
 
 h1 {
-    margin-top: 60px;
-    margin-bottom: 0;
+    margin: 0;
+    font-size: 100px;
+    color: #9E9E9E;
 }
 
 p {
-    font-size: 28px;
+    font-size: 32px;
+    margin: 0;
+    color: #b6b6b6;
 }
 
 main > img {
