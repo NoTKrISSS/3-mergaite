@@ -7,7 +7,7 @@ header {
     display: inline-block;
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
-    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 header > img {
